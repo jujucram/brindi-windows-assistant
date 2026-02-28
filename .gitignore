@@ -1,0 +1,13 @@
+# Code::Blocks
+bin/
+obj/
+
+# Exécutables
+*.exe
+
+# Fichiers temporaires
+tmp_brindi.txt
+
+# Fichiers système
+.DS_Store
+Thumbs.db
