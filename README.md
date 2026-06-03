@@ -107,9 +107,6 @@ Brindi est un projet éducatif visant à :
 - Comprendre l'interaction entre C et Windows
 - Créer un assistant vocal simple et extensible
 
-## Licence
-
-Ce projet est publié sous licence MIT (libre d'utilisation avec attribution).
 
 ## Améliorations futures
 
