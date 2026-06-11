@@ -7,11 +7,10 @@ Brindi est un assistant personnel Windows capable de parler, exécuter des comma
 ## Fonctionnalités
 
 - Synthèse vocale (Text-to-Speech) avec la voix Windows
-- Ouverture d'applications (Chrome, Bloc-notes, Calculatrice, Visual Studio Code, Explorateur de fichiers)
-- Annonce de l'heure
+- Ouverture d'applications (Chrome, Bloc-notes, Calculatrice, etc...)
 - Recherche Google automatique si la commande n'est pas reconnue
 - Boucle continue : l'assistant reste à l'écoute
-- Programmation modulaire (.c / .h)
+- Programmation modulaire
 - Aucune bibliothèque externe à installer
 
 ## Exemples de commandes
@@ -52,7 +51,7 @@ Brindi/
 - Windows 10 ou 11
 - Un périphérique audio actif (haut-parleurs ou casque)
 - PowerShell (installé par défaut sur Windows)
-- Code::Blocks ou tout compilateur C compatible Windows
+- Code::Blocks, VS Code ou tout compilateur C compatible Windows
 
 ## Installation & Compilation
 
@@ -73,7 +72,7 @@ Brindi utilise une méthode stable et fiable :
 
 1. Le texte à prononcer est écrit dans un fichier temporaire
 2. PowerShell lit ce fichier avec System.Speech
-3. La phrase complète est prononcée (sans coupure, même avec accents)
+3. La phrase complète est prononcée
 
 Cette méthode évite tous les problèmes liés aux guillemets et aux espaces.
 
