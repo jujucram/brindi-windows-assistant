@@ -8,11 +8,11 @@ int main()
 {
     char input[128];
 
-    parler("Bonjour, je suis Brindi. Prêt à vous aider !");
+    parler("Bonjour, je suis Brindi. PrÃªt Ã  vous aider !");
 
     while (1)
     {
-        printf("\nBrindi > ");
+        printf("\nBrindi : ");
         if (fgets(input, sizeof(input), stdin))
         {
             input[strcspn(input, "\n")] = 0;
