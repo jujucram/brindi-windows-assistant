@@ -11,7 +11,7 @@ void executerCommande(const char *input)
     char tmp[256];
 
     if (strstr(input, "bonjour")) {
-        parler("Bonjour Brandon, je suis Brindi. Prêt à vous aider !");
+        parler("Bonjour Brandon, je suis Brindi. PrÃªt Ã  vous aider !");
     }
     else if (strstr(input, "chrome") || strstr(input, "internet")) {
         parler("Ouverture Google Chrome");
@@ -44,8 +44,9 @@ void executerCommande(const char *input)
         parler(tmp);
         printf("Brindi : %s\n", tmp);
     }
-    else if (strstr(input, "au revoir") || strstr(input, "quitter")) {
-        parler("revoir Brandon ! À bientôt.");
+    else if (strstr(input, "au revoir") || strstr(input, "quitter") || strstr(input, "fermeture") || strstr(input, "ferme toi")
+        ) {
+        parler("revoir ! Ã€ bientÃ´t.");
         exit(0);
     }
     else {
